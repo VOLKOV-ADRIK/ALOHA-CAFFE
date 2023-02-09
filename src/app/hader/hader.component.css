@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+  
+  @media (max-width: 767px) {
+    header h1 {
+      display: none;
+    }
+    
+    .logo {
+      height: 40px;
+    }
+  }
+  
