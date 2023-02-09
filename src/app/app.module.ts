@@ -10,6 +10,7 @@ import { InicioComponent } from './content/inicio/inicio.component';
 import { FooterComponent } from './footer/footer.component';
 import { RegistroComponent } from './registro/registro.component';
 import { SesionComponent } from './sesion/sesion.component';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 @NgModule({
   declarations: [
