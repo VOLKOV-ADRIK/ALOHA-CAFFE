@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CargarscripsService } from '../cargarscrips.service';
 
 @Component({
   selector: 'app-content',

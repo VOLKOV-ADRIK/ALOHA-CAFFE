@@ -10,7 +10,7 @@ import { InicioComponent } from './content/inicio/inicio.component';
 import { FooterComponent } from './footer/footer.component';
 import { RegistroComponent } from './registro/registro.component';
 import { SesionComponent } from './sesion/sesion.component';
-
+import { CargarscripsService } from './cargarscrips.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,9 @@ import { SesionComponent } from './sesion/sesion.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    CargarscripsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
