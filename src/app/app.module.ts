@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { RegistroComponent } from './registro/registro.component';
 import { SesionComponent } from './sesion/sesion.component';
 import { CargarscripsService } from './cargarscrips.service';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CargarscripsService } from './cargarscrips.service';
     InicioComponent,
     FooterComponent,
     RegistroComponent,
-    SesionComponent
+    SesionComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

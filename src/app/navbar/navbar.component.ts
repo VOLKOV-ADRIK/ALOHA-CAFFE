@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CargarscripsService } from '../cargarscrips.service';
+import { SwiperEvents } from 'swiper/types/swiper-events';
 
 @Component({
   selector: 'app-navbar',
