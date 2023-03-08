@@ -22,7 +22,8 @@ import {RouterModule, Routes} from '@angular/router';
 const appRoutes: Routes =[
   {path:'nosotros', component:NosotrosComponent},
   {path:'contactanos', component:ContactanosComponent},
-  {path:'inciar', component:SesionComponent}
+  {path:'inciar', component:SesionComponent},
+  {path:'inicio', component:InicioComponent}
 ]
 
 @NgModule({
