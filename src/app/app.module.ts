@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +12,18 @@ import { RegistroComponent } from './registro/registro.component';
 import { SesionComponent } from './sesion/sesion.component';
 import { CargarscripsService } from './cargarscrips.service';
 import { ContactComponent } from './contact/contact.component';
+import { NosotrosComponent } from './content/nosotros/nosotros.component';
+import { ContactanosComponent } from './content/contactanos/contactanos.component';
+
+/*Componente para rutas*/
+import {RouterModule, Routes} from '@angular/router';
+
+/*Declaraciones*/
+const appRoutes: Routes =[
+  {path:'nosotros', component:NosotrosComponent},
+  {path:'contactanos', component:ContactanosComponent},
+  {path:'inciar', component:SesionComponent}
+]
 
 @NgModule({
   declarations: [
@@ -23,11 +35,14 @@ import { ContactComponent } from './contact/contact.component';
     FooterComponent,
     RegistroComponent,
     SesionComponent,
-    ContactComponent
+    ContactComponent,
+    NosotrosComponent,
+    ContactanosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes,{enableTracing:true})
   ],
   providers: [
     CargarscripsService
