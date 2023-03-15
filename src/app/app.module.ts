@@ -1,7 +1,8 @@
 import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {AngularFireModule } from'@angular/fire/compat';
-import { environment } from '../../environments/enviroment';
+import { NgModel } from '@angular/forms';
+import {FormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -46,7 +47,7 @@ const appRoutes: Routes =[
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(appRoutes,{enableTracing:true}),
-    AngularFireModule.initializeApp(environment.firebaseConfig)
+    FormsModule
   ],
   providers: [
     CargarscripsService
