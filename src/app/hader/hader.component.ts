@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { CargarscripsService } from '../cargarscrips.service';
+import { AngularFireAuth } from '@angular/fire/compat/auth';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -8,7 +10,10 @@ import { CargarscripsService } from '../cargarscrips.service';
   styleUrls: ['./hader.component.css']
 })
 export class HaderComponent {
-  constructor(private cargarscripts: CargarscripsService){
+
+  usuario_activo: boolean | undefined
+
+  constructor(private cargarscripts: CargarscripsService, private auth: AngularFireAuth, private router: Router){
     cargarscripts.cargar([
       "assets/vendor/aos/aos.js",
       "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
@@ -18,5 +23,32 @@ export class HaderComponent {
       "assets/vendor/php-email-form/validate.js",
       "assets/js/main.js"
     ])
+  }
+
+  ngOnInit(): void{
+    this.auth.authState.subscribe(user =>{
+      if (user) {
+        this.usuario_activo = true
+      }
+      else{
+        this.usuario_activo = false
+      }
+    })
+
+  }
+
+  cerrarSesion(){
+    this.auth.authState.subscribe(user =>{
+      if (user) {
+        this.auth.signOut().then(() =>{
+          localStorage.removeItem('user');
+          alert("Sesion Finalizada")
+          window.location.reload()
+        })
+      }
+      else{
+        this.router.navigate(['/inicio'])
+      }
+    })
   }
 }

@@ -7,6 +7,9 @@ import { CargarscripsService } from '../cargarscrips.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+
+  usuario_activo: boolean | undefined
+  
   constructor(private cargarscripts: CargarscripsService){
     cargarscripts.cargar([
       "assets/vendor/aos/aos.js",
