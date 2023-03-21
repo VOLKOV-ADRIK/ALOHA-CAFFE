@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
+import { CargarscripsService } from '../cargarscrips.service';
 
 @Component({
   selector: 'app-registro',
@@ -15,7 +16,17 @@ export class RegistroComponent {
 
   ccontrasena: any | undefined
 
-  constructor(private auth: AngularFireAuth){}
+  constructor(private auth: AngularFireAuth, private cargarscripts: CargarscripsService){
+    cargarscripts.cargar([
+      "assets/vendor/aos/aos.js",
+      "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+      "assets/vendor/glightbox/js/glightbox.min.js",
+      "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+      "assets/vendor/swiper/swiper-bundle.min.js",
+      "assets/vendor/php-email-form/validate.js",
+      "assets/js/main.js"
+    ])
+  }
   ngOnInit(): void{
 
   }
