@@ -1,0 +1,244 @@
+[33mcommit e5647278717ae159bd502e7c8ab3c25996807016[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Mar 23 11:43:18 2023 -0500
+
+    Pequeños cambios
+
+[33mcommit da7dc90fbbae3f3370218a4c31682f2b2a593cef[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Tue Mar 21 13:14:42 2023 -0500
+
+    Termina bloque 2
+
+[33mcommit 2391a28b356b840c2793283c0ee3f835d35205eb[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Tue Mar 21 12:02:43 2023 -0500
+
+    Login y Registro
+
+[33mcommit 6a36e91ee14ac0213fb52c275cda352b41364d38[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Tue Mar 21 07:46:05 2023 -0500
+
+    Pequenas correciones
+    
+    Correciones al registro y al sesion
+
+[33mcommit 7ae5f844786d908e009aecafda0af9cced953d96[m
+Merge: 3014d9c 379af2e
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Mar 16 17:41:21 2023 -0500
+
+    Merge branch 'main' of https://github.com/VOLKOV-ADRIK/ALOHA-CAFFE
+
+[33mcommit 3014d9cfb4d92587ff64f2ff748ef8e74764ebd9[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Mar 16 17:38:52 2023 -0500
+
+    Api
+    
+    Co-Authored-By: mimartinezuat <124199872+mimartinezuat@users.noreply.github.com>
+
+[33mcommit c34c29ef77901bbfd015ef92d4eb154c82ce66dc[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Mar 16 17:23:28 2023 -0500
+
+    Api
+    
+    Co-Authored-By: mimartinezuat <124199872+mimartinezuat@users.noreply.github.com>
+
+[33mcommit e38bd4d9e23e0eab2580bf0722e1397b18744182[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Mar 16 17:22:01 2023 -0500
+
+    Conectando la API
+    
+    Ya logre conectar la API y mostrar uno de los dos formularios
+    
+    Co-Authored-By: mimartinezuat <124199872+mimartinezuat@users.noreply.github.com>
+
+[33mcommit 379af2e0cd54d27e38db44156b1030541e88562c[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Wed Mar 15 12:07:41 2023 -0500
+
+    Agregando el codigo de agregar usuario
+
+[33mcommit f361766a12e8dc147e171ee52089dcfc01dbf181[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Tue Mar 14 12:42:14 2023 -0500
+
+    Instalando firebase
+    
+    Instalando fire y mas fire
+
+[33mcommit ebf21eea687020525ecb1ac036c70b7d14bdd43a[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Wed Mar 8 11:54:32 2023 -0600
+
+    Agregamos Footer
+    
+    Footer agregado
+
+[33mcommit eeb5a0a24715119bfcaa9d117536c99707e1fabf[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Wed Mar 8 11:14:48 2023 -0600
+
+    Solucion de routerlink
+
+[33mcommit d917589550701543f4b709d2e0518a3840f0d2af[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Wed Mar 8 07:56:45 2023 -0600
+
+    Separacion en componente
+    
+    Creamos componentes y separamos
+
+[33mcommit d3cb19127e7a6a9d061724e7d4462fedc1ad71f9[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Tue Mar 7 12:19:54 2023 -0600
+
+    Eliminamos testimonios
+    
+    No lo consideramos relevante
+
+[33mcommit b2d3ffdd85d531d534349f9d7a25472496f678f3[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Tue Mar 7 12:12:02 2023 -0600
+
+    Actualizaciones
+    
+    Modificamos ya el portafolio y el apartado de clientes
+
+[33mcommit 4ce13f54b4781a60d34b6be01390fbdc49786c96[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Tue Mar 7 11:32:35 2023 -0600
+
+    Modificaciones
+
+[33mcommit 8fff0387b84fa2c3a83a50d076ce068947fab65b[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Mar 2 11:50:57 2023 -0600
+
+    Mas actualizacion
+    
+    Actualizamos componentes y modificamos textos e iconos
+
+[33mcommit 4e17ad20be9897ead1896a93a2c46e6e461588fa[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Mar 2 08:25:56 2023 -0600
+
+    Separacion
+    
+    Separamos todo por componentes
+
+[33mcommit 5ef568ff2ee4d57d7f1a50213d9f9081ff330de1[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Wed Mar 1 07:44:22 2023 -0600
+
+    Modificacion
+    
+    de imagenes
+
+[33mcommit f17b879c67f3eb25350df93e93e3f99029b97c19[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Tue Feb 28 01:51:02 2023 -0600
+
+    actulizaciones
+
+[33mcommit aec9630593f8154f563eed80dbbf7f9b051d38f9[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Tue Feb 28 00:11:34 2023 -0600
+
+    Update inicio.component.html
+
+[33mcommit 7e11643d0c9cd0ee96460979c9512bbd464c8183[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Sun Feb 26 21:08:37 2023 -0600
+
+    Al modificar la linea 436
+    
+    Al modificar la linea 436 del componente inicio se logra mostrar TODA las imagenes iconos etc, revisar porque sucede eso si se modifica en algun otro lugar se deja de ver
+    
+    Co-Authored-By: mimartinezuat <124199872+mimartinezuat@users.noreply.github.com>
+
+[33mcommit dc5e57ce39aebafce986ab80a5a4626ccf454664[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Sun Feb 26 00:42:46 2023 -0600
+
+    Actualizaciones
+
+[33mcommit adeda0341160ab78f596cbe1d05b2628ed1240bb[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Tue Feb 21 11:42:15 2023 -0600
+
+    Utilizando plantilla de Bootstrap
+
+[33mcommit 9d8d846d8d1b1b4712d361c2d822a81c6faaf784[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Mon Feb 20 17:20:39 2023 -0600
+
+    Update content.component.html
+
+[33mcommit 390c817aa6377a67d3a6187dc7fd1e97c7221334[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Feb 16 11:45:52 2023 -0600
+
+    Agregando cosas de bootstrap
+
+[33mcommit 8401e03a8a9fe43fe89878cbbf3b2605793b896f[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Feb 9 12:33:55 2023 -0600
+
+    componentes
+    
+    Finalizacion de bootstrap y creacion de varios componentes
+
+[33mcommit a41a4535b183a345307dee59bfb9a3aadab116e1[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Feb 9 12:11:48 2023 -0600
+
+    otro intento
+
+[33mcommit af12a2b56dd75cc6cfd716f8fe334e623da2a2fd[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Feb 9 12:08:19 2023 -0600
+
+    i
+
+[33mcommit 9dd12d63454f061119dd5d42992858f3d0f22d52[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Feb 9 12:06:28 2023 -0600
+
+    Mas intentos
+
+[33mcommit d27c6766d3908fe7f17366bf76af1c39686e1a60[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Feb 9 12:02:41 2023 -0600
+
+    Buscando corregir error de boots
+
+[33mcommit e0db4fa40db37d3dae866a6421059867eacc9f84[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Feb 9 11:56:22 2023 -0600
+
+    Modificaciones
+
+[33mcommit 3f00f9a957f74696ae2f05d65fa7cb841c8ae099[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Thu Feb 9 07:45:50 2023 -0600
+
+    Instalacion de bootstrap, popper y jquery
+
+[33mcommit 07c059ce6d9ed18d87f1198f19dd2c30fe0849c6[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Tue Feb 7 11:59:52 2023 -0600
+
+    Update index.html
+
+[33mcommit ffa2ddc1489418f605a0407f962e47746b6c5e5f[m
+Author: ADRIK <124713189+VOLKOV-ADRIK@users.noreply.github.com>
+Date:   Tue Feb 7 11:51:22 2023 -0600
+
+    Aloha Caffe
+    
+    Proyecto Universitario para una pagina de un cafe
