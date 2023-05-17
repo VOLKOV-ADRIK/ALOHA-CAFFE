@@ -21,6 +21,7 @@ import { ContactanosComponent } from './content/contactanos/contactanos.componen
 /*Componente para rutas*/
 import {RouterModule, Routes} from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { PedidosComponent } from './content/pedidos/pedidos.component';
 
 /*Declaraciones*/
 const appRoutes: Routes =[
@@ -29,7 +30,8 @@ const appRoutes: Routes =[
   {path:'contactanos', component:ContactanosComponent},
   {path:'inciar', component:SesionComponent},
   {path:'inicio', component:InicioComponent},
-  {path:'registro', component:RegistroComponent}
+  {path:'registro', component:RegistroComponent},
+  {path: 'pedidos', component:PedidosComponent}
 ]
 
 @NgModule({
@@ -44,7 +46,8 @@ const appRoutes: Routes =[
     SesionComponent,
     ContactComponent,
     NosotrosComponent,
-    ContactanosComponent
+    ContactanosComponent,
+    PedidosComponent
   ],
   imports: [
     BrowserModule,
